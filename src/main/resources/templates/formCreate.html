@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Create Form</title>
+</head>
+
+<body>
+    <div class="survey">
+        <form action="/form" method="post">
+            <div class="question text" style="height: 100px;">
+                <h3>Give the name of the form</h3>
+                <input type="text" name="formName" id="formName">
+            </div>
+            <!-- <div class="question text" style="height: 100px;">
+                <h3>Give the question type</h3>
+                <select name="questionType" id="">
+                    <option value="Text">Text Input</option>
+                    <option value="Checkbox">Checkbox</option>
+                    <option value="Radio">Radio</option>
+                </select>
+            </div>
+            <div class="question text" style="height: 100px;">
+                <h3>Give count of input fields</h3>
+                <input type="number" name="count" id="count" placeholder="Input Count">
+            </div> -->
+            <div class="form">
+                <h2>Added Question</h2>
+            </div>
+            <div class="submit" style="display: flex; justify-content: center; margin-top: 50px;">
+                <input type="submit" value="Question" name="submit" style="align-self: center; margin-right: 20px;">
+                <input type="submit" value="Submit" name="submit" style="align-self: center; margin-left: 20px;">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

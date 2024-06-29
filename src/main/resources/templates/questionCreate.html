@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="survey">
+        <form action="/question" method="post">
+            <div class="question text">
+                <h3>Give the question</h3>
+                <textarea name="question" id=""></textarea>
+            </div>
+            <div class="question text" style="height: 100px;">
+                <h3>Give the question type</h3>
+                <select name="questionType" id="">
+                    <option value="Text">Text Input</option>
+                    <option value="Checkbox">Checkbox</option>
+                    <option value="Radio">Radio</option>
+                </select>
+            </div>
+            <div class="question text" style="height: 100px;">
+                <h3>Give count of input fields</h3>
+                <input type="number" name="count" id="count" placeholder="Input Count">
+            </div>
+            <div class="submit" style="display: flex; justify-content: center; margin-top: 50px;">
+                <input type="submit" value="Submit" name="submit" style="align-self: center;">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
